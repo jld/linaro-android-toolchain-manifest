@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="donut"
+  <default revision="eclair"
            remote="korg" />
 
   <project path="benchmark" name="toolchain/benchmark" />
