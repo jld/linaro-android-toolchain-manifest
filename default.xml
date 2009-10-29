@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
+  <default revision="master"
+           remote="korg" />
+
+  <project path="benchmark" name="toolchain/benchmark" />
+  <project path="binutils" name="toolchain/binutils" />
+  <project path="build" name="toolchain/build" />
+  <project path="gcc" name="toolchain/gcc" />
+  <project path="gdb" name="toolchain/gdb" />
+  <project path="gmp" name="toolchain/gmp" />
+  <project path="gold" name="toolchain/gold" />
+  <project path="mpfr" name="toolchain/mpfr" />
+
+</manifest>
