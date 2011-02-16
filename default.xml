@@ -6,10 +6,14 @@
   <default revision="master"
            remote="korg" />
 
+  <remote  name="linaro"
+           fetch="git://git.linaro.org/android/" />
+
+ <project path="gcc" name="toolchain/gcc" revision="linaro_master" remote="linaro"/>
+
   <project path="benchmark" name="toolchain/benchmark" />
   <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />
-  <project path="gcc" name="toolchain/gcc" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
   <project path="gold" name="toolchain/gold" />
