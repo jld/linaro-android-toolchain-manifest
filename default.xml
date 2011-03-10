@@ -3,12 +3,16 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
+
+  <remote  name="linaro"
+           fetch="git://git.linaro.org/android/" />
+
   <default revision="master"
            remote="korg" />
 
   <project path="benchmark" name="toolchain/benchmark" />
   <project path="binutils" name="toolchain/binutils" />
-  <project path="build" name="toolchain/build" />
+  <project path="build" name="toolchain/build" remote="linaro" />
   <project path="gcc" name="toolchain/gcc" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
