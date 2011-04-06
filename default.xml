@@ -16,7 +16,6 @@
   <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
-  <project path="gold" name="toolchain/gold" />
   <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
 
