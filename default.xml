@@ -18,5 +18,7 @@
   <project path="gmp" name="toolchain/gmp" />
   <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
+  <project path="ppl" name="toolchain/ppl" />
+  <project path="cloog" name="toolchain/cloog" />
 
 </manifest>
