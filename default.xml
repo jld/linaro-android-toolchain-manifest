@@ -4,21 +4,24 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 
-  <remote  name="linaro"
+  <remote  name="linaro-android"
            fetch="git://git.linaro.org/android/" />
+
+  <remote  name="linaro"
+           fetch="git://git.linaro.org/" />
 
   <default revision="master"
            remote="korg" />
 
   <project path="benchmark" name="toolchain/benchmark" />
-  <project path="binutils" name="toolchain/binutils" />
-  <project path="build" name="toolchain/build" remote="linaro" />
-  <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro" />
+  <project path="binutils" name="people/bernhardrosenkranzer/binutils" remote="linaro" revision="linaro" />
+  <project path="build" name="toolchain/build" remote="linaro-android" />
+  <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro-android" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
   <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
-  <project path="ppl" name="toolchain/ppl" remote="linaro" />
-  <project path="cloog" name="toolchain/cloog" remote="linaro" />
+  <project path="ppl" name="toolchain/ppl" remote="linaro-android" />
+  <project path="cloog" name="toolchain/cloog" remote="linaro-android" />
 
 </manifest>
