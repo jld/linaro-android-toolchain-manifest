@@ -17,7 +17,7 @@
   <project path="binutils" name="people/bernhardrosenkranzer/binutils" remote="linaro" revision="linaro" />
   <project path="build" name="toolchain/build" remote="linaro-android" />
   <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro-android" />
-  <project path="gdb" name="toolchain/gdb" />
+  <project path="gdb" name="people/bernhardrosenkranzer/gdb" remote="linaro" />
   <project path="gmp" name="people/bernhardrosenkranzer/gmp" remote="linaro" />
   <project path="mpc" name="people/bernhardrosenkranzer/mpc" remote="linaro" />
   <project path="mpfr" name="people/bernhardrosenkranzer/mpfr" remote="linaro" />
