@@ -12,7 +12,7 @@
 
   <project path="benchmark" name="toolchain/benchmark" />
   <project path="binutils" name="toolchain/binutils" />
-  <project path="build" name="toolchain/build" remote="linaro" />
+  <project path="build" name="toolchain/build" remote="linaro" revision="613ed66c7eacc44ea03778f7d59aa8e2a50c2839" />
   <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
