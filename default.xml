@@ -5,22 +5,23 @@
            review="review.source.android.com" />
 
   <remote  name="linaro-android"
-           fetch="git://git.linaro.org/android/" />
+           fetch="git://android.git.linaro.org/"
+           review="review.android.git.linaro.org" />
 
-  <remote  name="linaro"
+  <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
 
   <default revision="master"
            remote="korg" />
 
   <project path="benchmark" name="toolchain/benchmark" />
-  <project path="binutils" name="people/bernhardrosenkranzer/binutils" remote="linaro" revision="linaro" />
-  <project path="build" name="toolchain/build" remote="linaro-android" />
+  <project path="binutils" name="people/bernhardrosenkranzer/binutils" remote="linaro-other" revision="linaro" />
+  <project path="build" name="toolchain/build" remote="linaro-android" revision="linaro-master" />
   <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro-android" />
-  <project path="gdb" name="people/bernhardrosenkranzer/gdb" remote="linaro" />
-  <project path="gmp" name="people/bernhardrosenkranzer/gmp" remote="linaro" />
-  <project path="mpc" name="people/bernhardrosenkranzer/mpc" remote="linaro" />
-  <project path="mpfr" name="people/bernhardrosenkranzer/mpfr" remote="linaro" />
+  <project path="gdb" name="people/bernhardrosenkranzer/gdb" remote="linaro-other" />
+  <project path="gmp" name="people/bernhardrosenkranzer/gmp" remote="linaro-other" />
+  <project path="mpc" name="people/bernhardrosenkranzer/mpc" remote="linaro-other" />
+  <project path="mpfr" name="people/bernhardrosenkranzer/mpfr" remote="linaro-other" />
   <project path="ppl" name="toolchain/ppl" remote="linaro-android" />
   <project path="cloog" name="toolchain/cloog" remote="linaro-android" />
 
