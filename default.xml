@@ -18,7 +18,7 @@
   <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
-  <project path="gdb" name="toolchain/gdb" remote="linaro-other" revision="master" />
+  <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
   <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
