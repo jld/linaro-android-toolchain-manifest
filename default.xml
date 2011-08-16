@@ -29,7 +29,7 @@
   <project path="android/build" name="platform/build" revision="linaro_android_2.3.5">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
   </project>
-  <project name="device/common" path="android/device/common" revision="linaro_android_2.3.5"/>
+  <project name="device/common" path="android/device/common" revision="master"/>
   <project name="device/linaro/common" path="android/device/linaro/common" revision="linaro_android_2.3.5"/>
   <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="linaro_android_2.3.5"/>
   <project name="platform/frameworks/base" path="android/frameworks/base" revision="linaro_android_2.3.5"/>
