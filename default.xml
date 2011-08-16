@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- pinned-manifest.xml from https://android-build.linaro.org/builds/~berolinux/android-toolchain/#build=22 -->
 <manifest>
   <remote fetch="git://android.git.kernel.org/" name="korg" review="review.source.android.com"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro-android" review="review.android.git.linaro.org"/>
