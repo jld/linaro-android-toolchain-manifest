@@ -15,13 +15,13 @@
            remote="linaro-android" />
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
-  <project path="binutils" name="people/bernhardrosenkranzer/binutils" remote="linaro-other" revision="linaro" />
+  <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
-  <project path="gdb" name="people/bernhardrosenkranzer/gdb" remote="linaro-other" revision="master" />
-  <project path="gmp" name="people/bernhardrosenkranzer/gmp" remote="linaro-other" re/>
-  <project path="mpc" name="people/bernhardrosenkranzer/mpc" remote="linaro-other" />
-  <project path="mpfr" name="people/bernhardrosenkranzer/mpfr" remote="linaro-other" />
+  <project path="gdb" name="toolchain/gdb" remote="linaro-other" revision="master" />
+  <project path="gmp" name="toolchain/gmp" />
+  <project path="mpc" name="toolchain/mpc" />
+  <project path="mpfr" name="toolchain/mpfr" />
   <project path="ppl" name="toolchain/ppl" revision="master" />
   <project path="cloog" name="toolchain/cloog" revision="master" />
 
