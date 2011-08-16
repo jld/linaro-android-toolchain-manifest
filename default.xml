@@ -11,31 +11,31 @@
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
 
-  <default revision="master"
-           remote="korg" />
+  <default revision="linaro-master"
+           remote="linaro-android" />
 
-  <project path="benchmark" name="toolchain/benchmark" />
+  <project path="benchmark" name="toolchain/benchmark" revision="master" />
   <project path="binutils" name="people/bernhardrosenkranzer/binutils" remote="linaro-other" revision="linaro" />
-  <project path="build" name="toolchain/build" remote="linaro-android" revision="linaro-master" />
-  <project path="gcc-patches" name="toolchain/gcc-patches" remote="linaro-android" />
-  <project path="gdb" name="people/bernhardrosenkranzer/gdb" remote="linaro-other" />
-  <project path="gmp" name="people/bernhardrosenkranzer/gmp" remote="linaro-other" />
+  <project path="build" name="toolchain/build" />
+  <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
+  <project path="gdb" name="people/bernhardrosenkranzer/gdb" remote="linaro-other" revision="master" />
+  <project path="gmp" name="people/bernhardrosenkranzer/gmp" remote="linaro-other" re/>
   <project path="mpc" name="people/bernhardrosenkranzer/mpc" remote="linaro-other" />
   <project path="mpfr" name="people/bernhardrosenkranzer/mpfr" remote="linaro-other" />
-  <project path="ppl" name="toolchain/ppl" remote="linaro-android" />
-  <project path="cloog" name="toolchain/cloog" remote="linaro-android" />
+  <project path="ppl" name="toolchain/ppl" revision="master" />
+  <project path="cloog" name="toolchain/cloog" revision="master" />
 
   <!-- Bionic and the minimal parts of the Android build system needed to build it - needed for libgomp and friends -->
-  <project path="android/build" name="platform/build" remote="linaro-android" revision="linaro_android_2.3.5">
+  <project path="android/build" name="platform/build" revision="linaro_android_2.3.5">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
   </project>
-  <project name="device/common" path="android/device/common" remote="linaro-android" revision="linaro_android_2.3.5"/>
-  <project name="device/linaro/common" path="android/device/linaro/common" remote="linaro-android" revision="linaro_android_2.3.5"/>
-  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" remote="linaro-android" revision="linaro_android_2.3.5"/>
-  <project name="platform/frameworks/base" path="android/frameworks/base" remote="linaro-android" revision="linaro_android_2.3.5"/>
-  <project name="platform/external/elfutils" path="android/external/elfutils" remote="linaro-android" revision="refs/tags/android_2.3.5_r1"/>
-  <project name="platform/external/elfcopy" path="android/external/elfcopy" remote="linaro-android" revision="linaro_android_2.3.5"/>
-  <project name="platform/external/svox" path="android/external/svox" remote="linaro-android" revision="linaro_android_2.3.5"/>
-  <project name="platform/system/core" path="android/system/core" revision="linaro_android_2.3.5" remote="linaro-android"/>
-  <project path="android/bionic" name="platform/bionic" remote="linaro-android" revision="refs/tags/android-2.3.5_r1" />
+  <project name="device/common" path="android/device/common" revision="linaro_android_2.3.5"/>
+  <project name="device/linaro/common" path="android/device/linaro/common" revision="linaro_android_2.3.5"/>
+  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="linaro_android_2.3.5"/>
+  <project name="platform/frameworks/base" path="android/frameworks/base" revision="linaro_android_2.3.5"/>
+  <project name="platform/external/elfutils" path="android/external/elfutils" revision="refs/tags/android_2.3.5_r1"/>
+  <project name="platform/external/elfcopy" path="android/external/elfcopy" revision="linaro_android_2.3.5"/>
+  <project name="platform/external/svox" path="android/external/svox" revision="linaro_android_2.3.5"/>
+  <project name="platform/system/core" path="android/system/core" revision="linaro_android_2.3.5" />
+  <project path="android/bionic" name="platform/bionic" revision="refs/tags/android-2.3.5_r1" />
 </manifest>
