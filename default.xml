@@ -37,5 +37,5 @@
   <project name="platform/external/elfcopy" path="android/external/elfcopy" revision="linaro_android_2.3.5"/>
   <project name="platform/external/svox" path="android/external/svox" revision="linaro_android_2.3.5"/>
   <project name="platform/system/core" path="android/system/core" revision="linaro_android_2.3.5" />
-  <project path="android/bionic" name="platform/bionic" revision="refs/tags/android-2.3.5_r1" />
+  <project path="android/bionic" name="platform/bionic" revision="linaro_android_2.3.5" />
 </manifest>
