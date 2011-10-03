@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="master"
+  <default revision="eclair"
            remote="aosp"
            sync-j="4" />
 
@@ -14,7 +14,6 @@
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
   <project path="gold" name="toolchain/gold" />
-  <project path="mpc" name="toolchain/mpc" />
   <project path="mpfr" name="toolchain/mpfr" />
 
 </manifest>
