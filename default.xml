@@ -17,6 +17,7 @@
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
   <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />
+  <project path="gcc" name="toolchain/gcc" revision="master" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
