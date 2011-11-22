@@ -2,10 +2,9 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="git://android.git.linaro.org/" />
   <default revision="master"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
   <project path="benchmark" name="toolchain/benchmark" />
   <project path="binutils" name="toolchain/binutils" />
