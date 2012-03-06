@@ -11,6 +11,9 @@
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
 
+  <remote  name="fsf-gcc"
+           fetch="git://gcc.gnu.org/git/" />
+
   <default revision="linaro-master"
            remote="linaro-android" />
 
@@ -18,6 +21,7 @@
   <project path="binutils" name="toolchain/binutils" />
   <project path="build" name="toolchain/build" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
+  <project path="gcc/gcc-4.8" name="gcc" revision="trunk" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
   <project path="mpc" name="toolchain/mpc" />
