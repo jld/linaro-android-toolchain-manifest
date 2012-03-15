@@ -19,7 +19,7 @@
   <project name="platform/system/core" path="android/system/core" revision="f700cacf836a7137912bfe714b026e427099535c"/>
   <project name="toolchain/benchmark" path="benchmark" revision="c7949005d4283c0be18307ffb8410780e9a4a0c3"/>
   <project name="toolchain/binutils" path="binutils" revision="1fb04edd330560089298b86b4638eba5f3ced182"/>
-  <project name="toolchain/build" path="build" revision="5ba8a26f29598bbb79b05e4509c6af840cc480cd"/>
+  <project name="toolchain/build" path="build" revision="6f7f732146d0d0849937b389f591bfff8ec5a2a8"/>
   <project name="toolchain/cloog" path="cloog" revision="8de5bce041f5be8421bb4019a65192f70cfe8a6b"/>
   <project name="toolchain/gcc-patches" path="gcc-patches" revision="a83f24b1fdd4a6ee3cd4842427aadb1a01e5a9d6"/>
   <project name="toolchain/gdb" path="gdb" revision="cb08866446b22a81b171ac567a9f23d249775c15"/>
