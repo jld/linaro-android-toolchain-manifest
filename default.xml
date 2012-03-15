@@ -7,23 +7,23 @@
   <default remote="linaro-android" revision="linaro-master"/>
   
   <project name="device/common" path="android/device/common" revision="28b7cc7e41f9521a2e9e3b197ed2f750acc4cc15"/>
-  <project name="device/linaro/common" path="android/device/linaro/common" revision="08ac3cbad233e38fe54ac07eafe2881e4e55b748"/>
-  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="c5d185ac4c7df5fa6d21a8331f5ba70d0a5ab77e"/>
-  <project name="platform/bionic" path="android/bionic" revision="faa7c1d29f9ed0b3eb252bb0bd43e7596eed5d9c"/>
-  <project name="platform/build" path="android/build" revision="fc8a50b1edc60204bb3d609e6b3095d66ce83645">
+  <project name="device/linaro/common" path="android/device/linaro/common" revision="c5fec6ab4ee048fcd93b45316ee7a0d480ef8303"/>
+  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="853d0dbc3577d4f491619ca1e5aee02cd8093042"/>
+  <project name="platform/bionic" path="android/bionic" revision="a4b8785c956130b41329849e3562469399199f55"/>
+  <project name="platform/build" path="android/build" revision="258794bf688309357254f3326225dcfd614fae16">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
   </project>
   <project name="platform/external/elfutils" path="android/external/elfutils" revision="84cf4183ba6f577ee01abe7f1f5a6d4b23df35a8"/>
-  <project name="platform/external/svox" path="android/external/svox" revision="a359cef5690df6c8220448f646390b9dd775a673"/>
-  <project name="platform/frameworks/base" path="android/frameworks/base" revision="07c37402cacdb8dfcea23a590249efe1ad8ffe7c"/>
-  <project name="platform/system/core" path="android/system/core" revision="4de840525d812ad57df86f18c5d59b688d972cfc"/>
+  <project name="platform/external/svox" path="android/external/svox" revision="145233c9792dfe1d24918bb8fb1a2bbc16138c03"/>
+  <project name="platform/frameworks/base" path="android/frameworks/base" revision="793cac6595ed8f11fd73db9d6ea6662b5ff4ea5b"/>
+  <project name="platform/system/core" path="android/system/core" revision="f700cacf836a7137912bfe714b026e427099535c"/>
   <project name="toolchain/benchmark" path="benchmark" revision="c7949005d4283c0be18307ffb8410780e9a4a0c3"/>
   <project name="toolchain/binutils" path="binutils" revision="1fb04edd330560089298b86b4638eba5f3ced182"/>
-  <project name="toolchain/build" path="build" revision="f67dd2b4f7065f1406d482d6329853f0bfc4a6e5"/>
+  <project name="toolchain/build" path="build" revision="5ba8a26f29598bbb79b05e4509c6af840cc480cd"/>
   <project name="toolchain/cloog" path="cloog" revision="8de5bce041f5be8421bb4019a65192f70cfe8a6b"/>
   <project name="toolchain/gcc-patches" path="gcc-patches" revision="a83f24b1fdd4a6ee3cd4842427aadb1a01e5a9d6"/>
-  <project name="toolchain/gdb" path="gdb" revision="e12299a6e4bdd6a0268c3be487ee16d341cf8c84"/>
-  <project name="toolchain/gmp" path="gmp" revision="2de90c16c55c0b2e7097df65a4b94a850099d8b8"/>
+  <project name="toolchain/gdb" path="gdb" revision="cb08866446b22a81b171ac567a9f23d249775c15"/>
+  <project name="toolchain/gmp" path="gmp" revision="14f47f8dd6ca84584abed724c41ce4c8de5ff6f0"/>
   <project name="toolchain/mpc" path="mpc" revision="1f8818bf62d4c3becd4eebf13ffa52d4393a3eff"/>
   <project name="toolchain/mpfr" path="mpfr" revision="8986794d349ae29df206cb87b5b3ca0d713818a1"/>
   <project name="toolchain/ppl" path="ppl" revision="bfecf59a82ac79afc612f6240b1d06141cffc2cc"/>
