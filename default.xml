@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.linaro.org/"
-           review="review.android.git.linaro.org" />
-
-  <remote  name="linaro-android"
-           fetch="git://android.git.linaro.org/"
-           review="review.android.git.linaro.org" />
-
-  <remote  name="linaro-other"
-           fetch="git://git.linaro.org/" />
-
-  <default revision="linaro-master"
-           remote="linaro-android" />
-
-  <project path="benchmark" name="toolchain/benchmark" revision="master" />
-  <project path="binutils" name="toolchain/binutils" />
-  <project path="build" name="toolchain/build" />
-  <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
-  <project path="gdb" name="toolchain/gdb" />
-  <project path="gmp" name="toolchain/gmp" />
-  <project path="mpc" name="toolchain/mpc" />
-  <project path="mpfr" name="toolchain/mpfr" />
-  <project path="ppl" name="toolchain/ppl" revision="master" />
-  <project path="cloog" name="toolchain/cloog" revision="master" />
-
-  <!-- Bionic and the minimal parts of the Android build system needed to build it - needed for libgomp and friends -->
-  <project path="android/build" name="platform/build" revision="linaro_android_4.0.4">
+  <remote fetch="git://android.git.linaro.org/" name="korg" review="review.android.git.linaro.org"/>
+  <remote fetch="git://android.git.linaro.org/" name="linaro-android" review="review.android.git.linaro.org"/>
+  <remote fetch="git://git.linaro.org/" name="linaro-other"/>
+  
+  <default remote="linaro-android" revision="linaro-master"/>
+  
+  <project name="device/common" path="android/device/common" revision="7d4526582f88808a3194e1a3b304abb369d2745c"/>
+  <project name="device/linaro/common" path="android/device/linaro/common" revision="d664275936c646350037339f7acb2aaaa95325b1"/>
+  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="b6b5adca36464d2f620663c460702a828ffb2c26"/>
+  <project name="platform/bionic" path="android/bionic" revision="f1dd5e8c215b080bb2f4cf226f9d657e31d08f8d"/>
+  <project name="platform/build" path="android/build" revision="f12f2a0e708191e09f4a150a8edd804c68f4a36d">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
   </project>
-  <project name="device/common" path="android/device/common" revision="master"/>
-  <project name="device/linaro/common" path="android/device/linaro/common" revision="linaro_android_4.0.4"/>
-  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="linaro_android_4.0.4"/>
-  <project name="platform/frameworks/base" path="android/frameworks/base" revision="linaro_android_4.0.4"/>
-  <project name="platform/external/elfutils" path="android/external/elfutils" revision="refs/tags/android-4.0.4_r1.1"/>
-  <project name="platform/external/svox" path="android/external/svox" revision="refs/tags/android-4.0.4_r1.1"/>
-  <project name="platform/system/core" path="android/system/core" revision="linaro_android_4.0.4" />
-  <project path="android/bionic" name="platform/bionic" revision="linaro_android_4.0.4" />
+  <project name="platform/external/elfutils" path="android/external/elfutils" revision="84cf4183ba6f577ee01abe7f1f5a6d4b23df35a8"/>
+  <project name="platform/external/svox" path="android/external/svox" revision="319ce8db8442d58f8d98eaf58becca74d817734f"/>
+  <project name="platform/frameworks/base" path="android/frameworks/base" revision="b1385f88006a79378ad55bffbd15948b92156bbc"/>
+  <project name="platform/system/core" path="android/system/core" revision="974d5d0239caf09833000daebc4642042eee5920"/>
+  <project name="toolchain/benchmark" path="benchmark" revision="c7949005d4283c0be18307ffb8410780e9a4a0c3"/>
+  <project name="toolchain/binutils" path="binutils" revision="e07c2a9a8e811c36f0cd9aea444e7eee33ddc3f7"/>
+  <project name="toolchain/build" path="build" revision="3877144d22d03cfc34aadf37490c3328064941ed"/>
+  <project name="toolchain/cloog" path="cloog" revision="8de5bce041f5be8421bb4019a65192f70cfe8a6b"/>
+  <project name="toolchain/gcc-patches" path="gcc-patches" revision="a83f24b1fdd4a6ee3cd4842427aadb1a01e5a9d6"/>
+  <project name="toolchain/gdb" path="gdb" revision="10a46fcd6c7f90e9bac1d04870a565532f5cc376"/>
+  <project name="toolchain/gmp" path="gmp" revision="6a6e46bd27d68303fd0c01dead05367b16f759bc"/>
+  <project name="toolchain/mpc" path="mpc" revision="1f8818bf62d4c3becd4eebf13ffa52d4393a3eff"/>
+  <project name="toolchain/mpfr" path="mpfr" revision="3c1a28445c0d3b8a6c8a944536a57614c8483268"/>
+  <project name="toolchain/ppl" path="ppl" revision="bfecf59a82ac79afc612f6240b1d06141cffc2cc"/>
 </manifest>
