@@ -33,6 +33,7 @@
   <project name="device/linaro/common" path="android/device/linaro/common" revision="linaro-ics"/>
   <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="linaro-jb"/>
   <project name="platform/frameworks/base" path="android/frameworks/base" revision="linaro_android_4.1.1"/>
+  <project name="platform/frameworks/native" path="android/frameworks/native" revision="linaro_android_4.1.1"/>
   <project name="platform/external/elfutils" path="android/external/elfutils" revision="linaro_android_4.1.1"/>
   <project name="platform/external/svox" path="android/external/svox" revision="refs/tags/android-4.1.1_r4"/>
   <project name="platform/system/core" path="android/system/core" revision="linaro_android_4.1.1" />
