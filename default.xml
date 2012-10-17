@@ -21,7 +21,7 @@
   <project groups="default" name="platform/system/core" path="android/system/core" revision="37e82ea7333cb678d93ceee04ae255e05924ae1e"/>
   <project groups="default" name="toolchain/benchmark" path="benchmark" revision="c7949005d4283c0be18307ffb8410780e9a4a0c3"/>
   <project groups="default" name="toolchain/binutils" path="binutils" revision="605e7ba2a4856d676902ecdabeb27e2c38a3e006"/>
-  <project groups="default" name="toolchain/build" path="build" revision="6696aeb91fa56876b939fc1b054cc7e86d42cc6b"/>
+  <project groups="default" name="toolchain/build" path="build" revision="3ee8f56c6e0feae8b524d8dd37100edeb0e29556"/>
   <project groups="default" name="toolchain/cloog" path="cloog" revision="8de5bce041f5be8421bb4019a65192f70cfe8a6b"/>
   <project groups="default" name="toolchain/gcc-patches" path="gcc-patches" revision="a83f24b1fdd4a6ee3cd4842427aadb1a01e5a9d6"/>
   <project groups="default" name="toolchain/gdb" path="gdb" revision="cc131973c5c63510549e8418a550698a03f06b84"/>
