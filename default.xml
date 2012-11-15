@@ -15,7 +15,7 @@
            remote="linaro-android" />
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
-  <project path="binutils" name="toolchain/binutils" />
+  <project path="binutils/binutils-current" name="toolchain/binutils-current" />
   <project path="build" name="toolchain/build" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
   <project path="gdb" name="toolchain/gdb" />
