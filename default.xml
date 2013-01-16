@@ -24,7 +24,7 @@
   <project path="gcc/gcc-4.8" name="toolchain/gcc-upstream" revision="trunk" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
-  <project path="mpc" name="toolchain/mpc" />
+  <project path="mpc/mpc-current" name="toolchain/mpc-current" revision="linaro-1.0.1" />
   <project path="mpfr" name="toolchain/mpfr" />
   <project path="ppl" name="toolchain/ppl" revision="master" />
   <project path="cloog" name="toolchain/cloog" revision="master" />
