@@ -20,7 +20,7 @@
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
   <project path="gdb" name="toolchain/gdb" />
   <project path="gmp" name="toolchain/gmp" />
-  <project path="mpc" name="toolchain/mpc" />
+  <project path="mpc/mpc-current" name="toolchain/mpc-current" revision="linaro-1.0.1" />
   <project path="mpfr" name="toolchain/mpfr" />
   <project path="ppl" name="toolchain/ppl" revision="master" />
   <project path="cloog" name="toolchain/cloog" revision="master" />
