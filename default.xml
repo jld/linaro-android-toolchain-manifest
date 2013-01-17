@@ -6,9 +6,9 @@
   
   <default remote="linaro-android" revision="linaro-master"/>
   
-  <project name="device/common" path="android/device/common" revision="c761eeaa8a2a6d872c54d7674d6f3be1504be4bb" upstream="master"/>
-  <project name="device/linaro/common" path="android/device/linaro/common" revision="9603e44d64e14645a520db16b03366fedcc46491" upstream="linaro-ics"/>
-  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="e4dfa9131acd5bb0939594ca0bb709d5de8ed74e" upstream="linaro-jb"/>
+  <project name="device/common" path="android/device/common" revision="4a046090c04660f22921c0dbf380fdd1f00978ed" upstream="master"/>
+  <project name="device/linaro/common" path="android/device/linaro/common" revision="e418495a09618f967ccd677bc57a1e47f5b3f6c3" upstream="linaro-ics"/>
+  <project name="device/linaro/pandaboard" path="android/device/linaro/pandaboard" revision="3b8bdfc92fc2b0d36574e7eb4bedd59c5a37220e" upstream="linaro-jb"/>
   <project name="platform/bionic" path="android/bionic" revision="b51524f0d75e3c1427a9a58bf86a47f95e073181" upstream="linaro_android_4.1.2"/>
   <project name="platform/build" path="android/build" revision="d840ac027d108f9b04bf6b0a6336e0e37dc959ad" upstream="linaro_android_4.1.2">
     <copyfile dest="android/Makefile" src="core/root.mk"/>
@@ -20,13 +20,13 @@
   <project name="platform/hardware/ti/omap4xxx" path="android/hardware/ti/omap4xxx" revision="7cc40a376a149e24fe4907db31b7d0f0b5e73645" upstream="linaro_android_4.1.2"/>
   <project name="platform/system/core" path="android/system/core" revision="dd28bb9220fc39f6bf793dcf2d5938e928338497" upstream="linaro_android_4.1.2"/>
   <project name="toolchain/benchmark" path="benchmark" revision="c7949005d4283c0be18307ffb8410780e9a4a0c3" upstream="master"/>
-  <project name="toolchain/binutils-current" path="binutils/binutils-current" revision="e8aa5c00debe1aa9ba0dd7bfbb382e15a952c68e" upstream="linaro-2.23.51.0.5"/>
-  <project name="toolchain/build" path="build" revision="e4243df54dacdba42d04ceae359ec28ee96eb049" upstream="linaro-master"/>
+  <project name="toolchain/binutils-current" path="binutils/binutils-current" revision="bc7306173f31a6453c46a1d141eeab4c493f05ae" upstream="linaro-2.23.51.0.8"/>
+  <project name="toolchain/build" path="build" revision="a87911527bb338e08b3375658bbb16710adda106" upstream="linaro-master"/>
   <project name="toolchain/cloog" path="cloog" revision="8de5bce041f5be8421bb4019a65192f70cfe8a6b" upstream="master"/>
   <project name="toolchain/gcc-patches" path="gcc-patches" revision="a83f24b1fdd4a6ee3cd4842427aadb1a01e5a9d6" upstream="master"/>
-  <project name="toolchain/gdb" path="gdb" revision="cc131973c5c63510549e8418a550698a03f06b84" upstream="linaro-master"/>
-  <project name="toolchain/gmp" path="gmp" revision="6a6e46bd27d68303fd0c01dead05367b16f759bc" upstream="linaro-master"/>
-  <project name="toolchain/mpc" path="mpc" revision="1bbb3160a8e8706531dee69251bf555aac6b2121" upstream="linaro-master"/>
+  <project name="toolchain/gdb-current" path="gdb/gdb-current" revision="034102f2605d0ae24e91b3c558a6dc79567e35ad" upstream="linaro-7.5-2012.12-1"/>
+  <project name="toolchain/gmp" path="gmp" revision="9f33a1d9265127850dc72c44615f4b7ee91f9038" upstream="linaro-master"/>
+  <project name="toolchain/mpc-current" path="mpc/mpc-current" revision="d9964de4e089ea7a3919e84c0ce5ff42980decb8" upstream="linaro-1.0.1"/>
   <project name="toolchain/mpfr" path="mpfr" revision="0604dfe8fe7040fd4332f95d4295f04cffaabd5d" upstream="linaro-master"/>
   <project name="toolchain/ppl" path="ppl" revision="bfecf59a82ac79afc612f6240b1d06141cffc2cc" upstream="master"/>
 </manifest>
