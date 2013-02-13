@@ -21,6 +21,7 @@
   <project path="gdb/gdb-current" name="toolchain/gdb-current" revision="linaro-7.5-2012.12-1" />
   <project path="gmp/gmp-current" name="toolchain/gmp-current" revision="linaro-5.1.1" />
   <project path="mpc/mpc-current" name="toolchain/mpc-current" revision="linaro-1.0.1" />
+  <project path="ppl" name="toolchain/ppl" revision="linaro-master" />
   <project path="mpfr" name="toolchain/mpfr" />
   <project path="cloog/cloog-current" name="toolchain/cloog-current" revision="linaro-0.18.0" />
 
