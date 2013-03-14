@@ -14,11 +14,14 @@
   <remote name="jld"
           fetch="git://github.com/jld/" />
 
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/" />
+
   <default revision="linaro-master"
            remote="linaro-android" />
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
-  <project path="binutils/binutils-current" name="toolchain/binutils-current" revision="linaro-2.23.51.0.9" />
+  <project path="binutils" remote="aosp" name="toolchain/binutils" revision="e4df3e0a5bb640ccfa2f30ee67fe9b3146b152d6" />
   <project path="build" remote="jld" name="linaro-android-toolchain-build.git" revision="b2g" />
   <project path="gcc" remote="jld" name="linaro-android-gcc.git" revision="b2g" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
