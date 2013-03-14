@@ -21,7 +21,7 @@
            remote="linaro-android" />
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
-  <project path="binutils" remote="jld" name="aosp-toolchain-binutils.git" revision="ld-fd-leak" />
+  <project path="binutils" remote="aosp" name="toolchain/binutils" revision="e4df3e0a5bb640ccfa2f30ee67fe9b3146b152d6" />
   <project path="build" remote="jld" name="linaro-android-toolchain-build.git" revision="b2g" />
   <project path="gcc" remote="jld" name="linaro-android-gcc.git" revision="b2g" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
